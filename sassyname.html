@@ -3,8 +3,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Contact Device Cortex — get in touch for support or business inquiries.">
-    <title>Contact — Device Cortex</title>
+    <meta name="description" content="SassyName — AI-powered business name generator. Find the perfect name for your startup or SaaS product.">
+    <title>SassyName — AI Name Generator | Device Cortex</title>
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -49,44 +49,52 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="contact.html">Contact</a>
+                        <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <!-- Hero Banner -->
-    <section class="contact-hero">
+    <!-- Hero -->
+    <section class="sassy-hero">
         <div class="container">
-            <h1>Contact Us</h1>
-            <p style="color:var(--dc-text-muted);">We'd love to hear from you.</p>
+            <div class="animate-on-scroll">
+                <img src="images/saasyname.png" alt="SassyName logo">
+                <h1 class="dc-section-title">Find the perfect name for your business</h1>
+                <p class="dc-section-subtitle mx-auto">AI-powered name generation for startups, SaaS products, and businesses of all kinds. Get creative, memorable names in seconds.</p>
+                <div class="mt-4">
+                    <a href="https://www.sassyname.com" class="btn-dc btn-dc-primary btn-pulse" target="_blank" rel="noopener">
+                        Try SassyName <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
         </div>
     </section>
 
-    <!-- Contact Info -->
-    <section class="dc-section">
+    <!-- Features -->
+    <section class="dc-section dc-section-light sassy-features">
         <div class="container">
             <div class="row g-4">
-                <div class="col-md-4">
-                    <div class="contact-card text-center">
-                        <i class="fa-solid fa-building"></i>
-                        <h5>Company</h5>
-                        <p class="mb-0">Device Cortex, LLC</p>
+                <div class="col-md-4 animate-on-scroll">
+                    <div class="feature-col">
+                        <i class="fa-solid fa-brain"></i>
+                        <h4>AI-Powered Generation</h4>
+                        <p>Advanced AI algorithms generate unique, brandable names tailored to your industry and style preferences.</p>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="contact-card text-center">
-                        <i class="fa-solid fa-envelope"></i>
-                        <h5>General Inquiries</h5>
-                        <p class="mb-0"><a href="mailto:info@devicecortex.com">info@devicecortex.com</a></p>
+                <div class="col-md-4 animate-on-scroll">
+                    <div class="feature-col">
+                        <i class="fa-solid fa-globe"></i>
+                        <h4>Domain Availability</h4>
+                        <p>Instantly check if matching domain names are available so you can secure your brand right away.</p>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="contact-card text-center">
-                        <i class="fa-solid fa-headset"></i>
-                        <h5>Support</h5>
-                        <p class="mb-0"><a href="mailto:support@devicecortex.com">support@devicecortex.com</a></p>
+                <div class="col-md-4 animate-on-scroll">
+                    <div class="feature-col">
+                        <i class="fa-solid fa-bolt"></i>
+                        <h4>Instant Results</h4>
+                        <p>Get dozens of creative name suggestions in seconds — no waiting, no sign-up required.</p>
                     </div>
                 </div>
             </div>
@@ -127,6 +135,18 @@
     <script>
         window.addEventListener('scroll', function() {
             document.querySelector('.dc-navbar').classList.toggle('scrolled', window.scrollY > 50);
+        });
+
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(function(entry) {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('.animate-on-scroll').forEach(function(el) {
+            observer.observe(el);
         });
     </script>
 </body>

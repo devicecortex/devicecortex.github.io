@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="NovaXplora — AI-powered collaborative travel planning. Dream, plan, travel, and share your adventures together.">
+    <title>NovaXplora — AI Travel Planning | Device Cortex</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome 6 -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+
+    <!-- Device Cortex -->
+    <link href="css/devicecortex.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top dc-navbar">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/dct-brain-sm.png" alt="Device Cortex" width="28" height="28">
+                Device Cortex
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="novaxplora.html">NovaXplora</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Products</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="novaxplora.html">NovaXplora</a></li>
+                            <li><a class="dropdown-item" href="zcastle.html">zCastle</a></li>
+                            <li><a class="dropdown-item" href="sassyname.html">SassyName</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Section 1: Hero -->
+    <section id="hero" class="dc-hero">
+        <div class="dc-orb dc-orb-1"></div>
+        <div class="dc-orb dc-orb-2"></div>
+        <div class="dc-orb dc-orb-3"></div>
+
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 hero-content">
+                    <div class="nova-wordmark">NovaXplora</div>
+                    <h1>Your journey, brilliantly shared.</h1>
+                    <p>AI-powered travel planning that helps you dream bigger, plan smarter, and share every moment with the people who matter.</p>
+                    <div class="hero-buttons">
+                        <a href="https://www.novaxplora.com" class="btn-dc btn-dc-primary btn-pulse" target="_blank" rel="noopener">Start Exploring</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 mt-5 mt-lg-0">
+                    <div class="float-anim">
+                        <div class="mockup-laptop mockup-laptop-glow">
+                            <div class="laptop-chrome">
+                                <span class="chrome-dot red"></span>
+                                <span class="chrome-dot yellow"></span>
+                                <span class="chrome-dot green"></span>
+                                <div class="chrome-bar"></div>
+                            </div>
+                            <div class="laptop-screen">
+                                <img src="images/novaxplora/plan-map.png" alt="NovaXplora interactive map view">
+                            </div>
+                            <div class="laptop-base"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 2: Value Props Strip -->
+    <section class="dc-section dc-section-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 animate-on-scroll">
+                    <div class="value-prop">
+                        <div class="prop-icon">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                        <h4>Save places you love</h4>
+                        <p>Collect dream destinations into themed boards and never lose an inspiration again.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 animate-on-scroll">
+                    <div class="value-prop">
+                        <div class="prop-icon">
+                            <i class="fa-solid fa-list-check"></i>
+                        </div>
+                        <h4>Plan every detail</h4>
+                        <p>Build day-by-day itineraries with maps, photos, and AI-powered recommendations.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 animate-on-scroll">
+                    <div class="value-prop">
+                        <div class="prop-icon">
+                            <i class="fa-solid fa-users"></i>
+                        </div>
+                        <h4>Travel together</h4>
+                        <p>Invite friends and family to collaborate on plans in real time.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: Dreams Feature -->
+    <section id="dreams" class="feature-section dc-section-dark">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5 mb-4 mb-lg-0 animate-on-scroll">
+                    <span class="dc-badge">Dreams</span>
+                    <div class="feature-text">
+                        <h2>Collect your dream destinations</h2>
+                        <p class="lead">Save the places that inspire you and organize them into themed collections — weekend getaways, bucket-list adventures, or trips with friends.</p>
+                        <ul class="feature-list">
+                            <li><i class="fa-solid fa-check"></i> Themed dream collections</li>
+                            <li><i class="fa-solid fa-check"></i> Priority tags to plan what matters most</li>
+                            <li><i class="fa-solid fa-check"></i> One-click conversion to a full travel plan</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-7 animate-on-scroll">
+                    <div class="mockup-laptop mockup-laptop-glow">
+                        <div class="laptop-chrome">
+                            <span class="chrome-dot red"></span>
+                            <span class="chrome-dot yellow"></span>
+                            <span class="chrome-dot green"></span>
+                            <div class="chrome-bar"></div>
+                        </div>
+                        <div class="laptop-screen">
+                            <img src="images/novaxplora/dreams-overview.png" alt="NovaXplora dream destinations" loading="lazy">
+                        </div>
+                        <div class="laptop-base"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4: Plans Feature (reversed layout, crossfade animation) -->
+    <section id="plans" class="feature-section dc-section-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7 order-lg-1 order-2 animate-on-scroll">
+                    <div class="mockup-laptop mockup-laptop-glow">
+                        <div class="laptop-chrome">
+                            <span class="chrome-dot red"></span>
+                            <span class="chrome-dot yellow"></span>
+                            <span class="chrome-dot green"></span>
+                            <div class="chrome-bar"></div>
+                        </div>
+                        <div class="laptop-screen">
+                            <div class="crossfade-container">
+                                <img src="images/novaxplora/plan-itinerary.png" alt="Itinerary builder" loading="lazy">
+                                <img src="images/novaxplora/plan-map.png" alt="Interactive map" loading="lazy">
+                                <img src="images/novaxplora/plan-photos.png" alt="Plan photos" loading="lazy">
+                            </div>
+                        </div>
+                        <div class="laptop-base"></div>
+                    </div>
+                </div>
+                <div class="col-lg-5 order-lg-2 order-1 mb-4 mb-lg-0 animate-on-scroll">
+                    <span class="dc-badge">Plans</span>
+                    <div class="feature-text">
+                        <h2>Plan every detail, together</h2>
+                        <p class="lead">Collaborative itinerary building with an interactive map, AI-powered suggestions, and a built-in chat to keep everyone aligned.</p>
+                        <ul class="feature-list">
+                            <li><i class="fa-solid fa-check"></i> Day-by-day itinerary builder</li>
+                            <li><i class="fa-solid fa-check"></i> Interactive map with pinned locations</li>
+                            <li><i class="fa-solid fa-check"></i> AI recommendations for places to visit</li>
+                            <li><i class="fa-solid fa-check"></i> Built-in group chat</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5: Photos Feature -->
+    <section id="photos" class="feature-section dc-section-dark">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5 mb-4 mb-lg-0 animate-on-scroll">
+                    <span class="dc-badge">Photos</span>
+                    <div class="feature-text">
+                        <h2>Capture and relive every moment</h2>
+                        <p class="lead">Upload photos from your trips, automatically organize them by location, and share beautiful albums with your travel companions.</p>
+                        <ul class="feature-list">
+                            <li><i class="fa-solid fa-check"></i> Collaborative photo gallery</li>
+                            <li><i class="fa-solid fa-check"></i> Auto geolocation tagging</li>
+                            <li><i class="fa-solid fa-check"></i> Share albums with friends and family</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-7 animate-on-scroll">
+                    <div class="mockup-laptop mockup-laptop-glow">
+                        <div class="laptop-chrome">
+                            <span class="chrome-dot red"></span>
+                            <span class="chrome-dot yellow"></span>
+                            <span class="chrome-dot green"></span>
+                            <div class="chrome-bar"></div>
+                        </div>
+                        <div class="laptop-screen">
+                            <img src="images/novaxplora/photos-gallery.png" alt="NovaXplora photo gallery" loading="lazy">
+                        </div>
+                        <div class="laptop-base"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 6: AI & Social -->
+    <section id="discover" class="dc-section dc-section-light">
+        <div class="container">
+            <div class="text-center mb-5 animate-on-scroll">
+                <h2 class="dc-section-title">Smarter travel, powered by AI</h2>
+                <p class="dc-section-subtitle mx-auto">Personalized recommendations and social features that make every trip better.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 animate-on-scroll">
+                    <div class="showcase-card">
+                        <div class="card-screenshot">
+                            <img src="images/novaxplora/recommendations.png" alt="AI recommendations" loading="lazy">
+                        </div>
+                        <div class="card-body-custom">
+                            <h3><i class="fa-solid fa-sparkles text-orange"></i> AI Recommendations</h3>
+                            <p>Get personalized suggestions for restaurants, activities, and hidden gems based on your travel style and preferences.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 animate-on-scroll">
+                    <div class="showcase-card">
+                        <div class="card-screenshot">
+                            <img src="images/novaxplora/friends.png" alt="Travel with friends" loading="lazy">
+                        </div>
+                        <div class="card-body-custom">
+                            <h3><i class="fa-solid fa-user-group text-orange"></i> Travel with Friends</h3>
+                            <p>Invite your travel crew to collaborate on plans, vote on activities, and share excitement before, during, and after your trip.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 7: Mobile Showcase -->
+    <section id="mobile" class="dc-section dc-section-dark" style="text-align:center;">
+        <div class="container">
+            <div class="animate-on-scroll">
+                <h2 class="dc-section-title mb-3">Your adventures, in your pocket</h2>
+                <p class="dc-section-subtitle mx-auto mb-5" style="color:var(--dc-text-muted);">Access your dreams, plans, and photos anywhere — beautifully designed for mobile.</p>
+            </div>
+            <div class="mobile-showcase animate-on-scroll">
+                <div class="mockup-phone">
+                    <div class="phone-frame">
+                        <div class="phone-notch"></div>
+                        <div class="phone-screen">
+                            <img src="images/novaxplora/dreams-mobile.png" alt="NovaXplora dreams on mobile" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+                <div class="mockup-phone">
+                    <div class="phone-frame">
+                        <div class="phone-notch"></div>
+                        <div class="phone-screen">
+                            <img src="images/novaxplora/plan-mobile.png" alt="NovaXplora plans on mobile" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-5 animate-on-scroll">
+                <a href="https://www.novaxplora.com" class="btn-dc btn-dc-primary btn-pulse" target="_blank" rel="noopener">
+                    Start Your Journey <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="dc-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h6>Device Cortex</h6>
+                    <p>Building intelligent apps for travel, home, and business.</p>
+                </div>
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h6>Products</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="novaxplora.html">NovaXplora</a></li>
+                        <li><a href="zcastle.html">zCastle</a></li>
+                        <li><a href="sassyname.html">SassyName</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h6>Contact</h6>
+                    <p><a href="mailto:support@devicecortex.com">support@devicecortex.com</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Device Cortex, LLC. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Scroll Effects -->
+    <script>
+        // Navbar scroll effect
+        window.addEventListener('scroll', function() {
+            document.querySelector('.dc-navbar').classList.toggle('scrolled', window.scrollY > 50);
+        });
+
+        // Intersection Observer for scroll animations
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(function(entry) {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('.animate-on-scroll').forEach(function(el) {
+            observer.observe(el);
+        });
+    </script>
+</body>
+</html>
