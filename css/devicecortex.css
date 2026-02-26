@@ -666,22 +666,54 @@ h1, h2, h3, h4, h5, h6 {
 .sassy-hero {
   padding: 8rem 0 4rem;
   text-align: center;
+  background: linear-gradient(135deg, #0a1628 0%, #0d2a4a 50%, #0a1628 100%);
+  color: #fff;
 }
 
 .sassy-hero img {
-  max-width: 200px;
+  max-width: 220px;
   margin-bottom: 1.5rem;
+}
+
+.sassy-hero .dc-section-title {
+  color: #fff;
+}
+
+.sassy-hero .dc-section-subtitle {
+  color: rgba(255, 255, 255, 0.7);
+  opacity: 1;
+}
+
+.sassy-features {
+  background: #faf9fd;
 }
 
 .sassy-features .feature-col {
   text-align: center;
-  padding: 2rem 1.5rem;
+  padding: 2.5rem 2rem;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08), 0 4px 12px rgba(0,0,0,0.04);
+  height: 100%;
 }
 
 .sassy-features .feature-col i {
   font-size: 2.5rem;
-  color: var(--dc-orange);
+  color: #005cbb;
   margin-bottom: 1rem;
+}
+
+.btn-dc-sassy {
+  background: #005cbb;
+  color: #fff;
+  box-shadow: 0 4px 20px rgba(0, 92, 187, 0.3);
+}
+
+.btn-dc-sassy:hover {
+  background: #0070e0;
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 30px rgba(0, 92, 187, 0.45);
 }
 
 /* ---------- zCastle Page ---------- */
